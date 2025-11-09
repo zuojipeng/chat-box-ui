@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 // API 配置 - 本地测试使用 localhost，部署后替换为生产环境地址
-const API_URL = 'http://localhost:8787/graphql';
+// const API_URL = 'http://localhost:8787/graphql';
 // 生产环境地址（部署到 Cloudflare Workers 后使用）:
-// const API_URL = 'https://api.jipengcode-learn.work/graphql';
+const API_URL = 'https://crimson-brook-04a5.hahazuo460.workers.dev//graphql';
 
 interface Message {
   text: string;
